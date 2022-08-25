@@ -1,3 +1,6 @@
+package board;
+
+import pieces.ChessGamePiece;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 // -------------------------------------------------------------------------

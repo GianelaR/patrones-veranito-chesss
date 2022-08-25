@@ -1,3 +1,7 @@
+package ui;
+
+import engine.ChessGameEngine;
+import board.ChessGameBoard;
 import java.awt.*;
 import javax.swing.*;
 // -------------------------------------------------------------------------

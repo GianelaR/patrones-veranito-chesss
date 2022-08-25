@@ -1,3 +1,5 @@
+package ui;
+
 import java.awt.Component;
 import java.awt.event.*;
 import javax.swing.*;
@@ -95,7 +97,7 @@ public class ChessMenuBar
         JOptionPane.showMessageDialog( this.getParent(), "Thanks for leaving"
             + ", quitter! >:(" );
         Component possibleFrame = this;
-        while ( possibleFrame != null && !( possibleFrame instanceof JFrame ) ){
+        while (!( possibleFrame instanceof JFrame ) ){
             possibleFrame = possibleFrame.getParent();
         }
         JFrame frame = (JFrame)possibleFrame;

@@ -1,3 +1,6 @@
+package ui;
+
+import pieces.ChessGamePiece;
 import java.awt.GridLayout;
 import javax.swing.*;
 // -------------------------------------------------------------------------
